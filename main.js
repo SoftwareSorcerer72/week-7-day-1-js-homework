@@ -30,14 +30,7 @@ if (temperatureF > 80) {
 
 var count = 0;
 while (count < 55) {
-  //If you want it to stop at 50, change this to 50, however the instructions say to display until 50, so based on the counting increments, you need 55 to get it to display 50
   console.log(count);
   count += 5;
 }
 
-// Here is both ways just to be sure
-var count = 0;
-while (count <= 50) {
-  console.log(count);
-  count += 5;
-}
