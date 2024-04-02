@@ -37,7 +37,7 @@ while (count < 55) {
 
 // Here is both ways just to be sure
 var count = 0;
-while (count < 50) {
+while (count <= 50) {
   console.log(count);
   count += 5;
 }
